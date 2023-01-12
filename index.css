@@ -15,13 +15,11 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 }
 
+
 a{
 	text-decoration: none;
 	color: #b6cbce;
-}
-
-a:hover{
-	color: #e0f780;
+	transition: all 0.5s ease;
 }
 
 img{
@@ -57,10 +55,18 @@ img{
 
 /* NAVBAR */
 
+.navbar{
+	background-color: #033f47;
+}
+
 .navbar .nav-link{
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+.hoho:hover{
+	color: #dc143c;
 }
 
 @media (min-width: 992px){
@@ -74,6 +80,10 @@ img{
 
 	.navbar-brand img{
 	border: 3px solid #c0c0c0;
+	}
+
+	.full-height{
+		padding-left: 300px;
 	}
 
 }
@@ -100,7 +110,7 @@ img{
 }
 
 .btn-brand:hover,
-.btn-bran:focus{
+.btn-brand:focus{
 	background-color: #3CB371;
 	color: #fff;
 	border-color: #3CB371;
@@ -143,6 +153,48 @@ img{
 	padding-top: 250px;
 }
 
+/* CARD */
+
+.card-custom .card-custom-image {
+	overflow: hidden;
+}
+
+.card-custom .card-custom-image img{
+	transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+	transform: scale(1.1);
+}
+
+/* ICONS */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #ea0c5f;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
 
 
 

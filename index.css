@@ -140,5 +140,20 @@ img{
 }
 
 
+/* MODAL */
+
+.modal-header{
+	background-color: #007FFF;
+	border-bottom: 2px solid #6CB4EE;
+}
+.modal-title{
+	color: #fff;
+}
+
+.modal-dialog{
+	padding-top: 250px;
+}
+
+
 
 
